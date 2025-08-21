@@ -17,16 +17,12 @@ const LoginPage = () => {
       <div className="w-full max-w-sm">
         {/* Header with line break */}
         <h1 className="text-3xl font-bold text-[#1D2226] mb-3 text-left leading-snug">
-          Sign in to your
-          <br />
-          PopX account
+          Sign in to your <br /> PopX account
         </h1>
 
         {/* Description with line break */}
         <p className="text-lg text-[#1D2226]/60 mb-8 text-left leading-snug">
-          Lorem ipsum dolor sit amet,
-          <br />
-          consectetur adipisicing elit
+          Lorem ipsum dolor sit amet, <br /> consectetur adipisicing elit
         </p>
 
         {/* Form */}
@@ -43,9 +39,7 @@ const LoginPage = () => {
             />
             <label
               htmlFor="email"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Email Address
             </label>
@@ -63,9 +57,7 @@ const LoginPage = () => {
             />
             <label
               htmlFor="pwd"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Password
             </label>
