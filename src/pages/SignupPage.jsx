@@ -36,9 +36,7 @@ const SignupPage = () => {
             {/* Full Name Label */}
             <label
               htmlFor="name"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Full Name <span className="text-[#DD4A3D]">*</span>
             </label>
@@ -58,9 +56,7 @@ const SignupPage = () => {
             {/* Phone Number Label */}
             <label
               htmlFor="phone"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Phone Number <span className="text-[#DD4A3D]">*</span>
             </label>
@@ -79,9 +75,7 @@ const SignupPage = () => {
             {/* Email Label */}
             <label
               htmlFor="email"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Email Address <span className="text-[#DD4A3D]">*</span>
             </label>
@@ -100,9 +94,7 @@ const SignupPage = () => {
             {/* Password Label */}
             <label
               htmlFor="pwd"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Password <span className="text-[#DD4A3D]">*</span>
             </label>
@@ -120,9 +112,7 @@ const SignupPage = () => {
             {/* Company Name Label */}
             <label
               htmlFor="comp-name"
-              className="absolute left-3 top-3.5 text-sm text-gray-400 transition-all bg-[#F7F8F9] px-1
-                         peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400
-                         peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
+              className="absolute left-3 -top-2 bg-[#F7F8F9] px-1 text-xs text-[#6C25FF] transition-all peer-placeholder-shown:top-3.5 peer-placeholder-shown:text-sm peer-placeholder-shown:text-gray-400 peer-focus:-top-2 peer-focus:text-xs peer-focus:text-[#6C25FF]"
             >
               Company Name
             </label>
